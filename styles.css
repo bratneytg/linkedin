@@ -1,0 +1,115 @@
+/* Reset y fuentes */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilos de cabecera */
+.header {
+    background-color: #0066cc;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+.header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.header p {
+    font-size: 1.2rem;
+}
+
+/* Navegación */
+.nav {
+    background-color: #004a99;
+    padding: 1rem 0;
+}
+.nav ul {
+    list-style: none;
+    text-align: center;
+}
+.nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Secciones */
+.section {
+    padding: 2rem 0;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+.section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/* Lista de habilidades */
+.skills-list {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+.skills-list li {
+    margin: 0.5rem 0;
+}
+
+/* Proyectos */
+.projects .project-card {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+}
+.projects .project-card h3 {
+    font-size: 1.5rem;
+    color: #0066cc;
+}
+.projects .project-card p {
+    font-size: 1rem;
+}
+
+/* Contacto */
+.contact ul {
+    list-style: none;
+    text-align: center;
+}
+.contact ul li {
+    margin: 0.5rem 0;
+}
+.contact ul li a {
+    color: #0066cc;
+    text-decoration: none;
+}
+.contact ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+}
